@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <label for="username">username</label>
+        <input type="text" placeholder="masukkan nama" id="username" required><br>
+        <label for="password">password</label>
+        <input type="password" placeholder="masukkan password" id="password" required><br>
+        <label for="email">email</label>
+        <input type="email" placeholder="masukkan email" id="email"><br>
+        <label for="tanggal">tanggal lahir</label>
+        <input type="date" id="tanggal" placeholder="masukkan tanggal"><br>
+        <label for="jumlah">jumlah</label>
+        <input type="number" id="jumlah" min="1" max="9"><br>
+
+        <label for="blood">golongan darah</label><br>
+        
+        <label for="a">A</label>
+        <input type="radio" id="a" value="a" name="blood">
+        <label for="b">B</label>
+        <input type="radio" id="b" value="b" name="blood">
+        <label for="ab">AB</label>
+        <input type="radio" id="ab" value="ab" name="blood"><br>
+
+        <label for="jenis">Jenis Barang</label>
+        <select id="jenis">
+            <option value="baju">BAJU</option>
+            <option value="celana">CELANA</option>
+        </select><br>
+        
+        <label for="terms">terms and condition</label>
+        <input type="checkbox">
+        
+        <button type="submit">kirim</button>
+    </form>
+</body>
+</html>
